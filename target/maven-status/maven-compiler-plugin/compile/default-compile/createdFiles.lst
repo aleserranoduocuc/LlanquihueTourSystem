@@ -1,0 +1,10 @@
+com\mycompany\llanquihuetoursystem\model\Operador.class
+com\mycompany\llanquihuetoursystem\data\CargadorDatos.class
+com\mycompany\llanquihuetoursystem\service\GestionTuristica.class
+com\mycompany\llanquihuetoursystem\util\Validador.class
+com\mycompany\llanquihuetoursystem\model\Empleado.class
+com\mycompany\llanquihuetoursystem\model\Guia.class
+com\mycompany\llanquihuetoursystem\LlanquihueTourSystem.class
+com\mycompany\llanquihuetoursystem\model\Direccion.class
+com\mycompany\llanquihuetoursystem\model\Proveedor.class
+com\mycompany\llanquihuetoursystem\model\Persona.class

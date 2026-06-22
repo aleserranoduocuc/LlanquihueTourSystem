@@ -1,0 +1,8 @@
+Rut,Nombre,Apellido,Telefono,Email,Calle,Numero,Comuna,Ciudad,Region,Especialidad,AñosExperiencia,Idiomas,Disponible
+14.141.414-1,Pedro,Silva,+56914141414,pedro.s@guia.cl,Calle del Lago,234,Puerto Varas,Puerto Varas,Los Lagos,Gastronomía,6,Español/Inglés/Portugués,true
+25.252.525-2,Laura,Fernández,+56925252525,laura.f@guia.cl,Av. Los Volcanes,567,Llanquihue,Llanquihue,Los Lagos,Paseos Lacustres,8,Español/Inglés/Alemán,true
+36.363.636-3,Diego,Reyes,+56936363636,diego.r@guia.cl,Calle Los Pinos,890,Frutillar,Frutillar,Los Lagos,Cultural,4,Español/Mapudungun,false
+44.444.444-4,Carolina,Martínez,+56944444444,carolina.m@guia.cl,Av. Costanera,123,Puerto Varas,Puerto Varas,Los Lagos,Gastronomía,5,Español/Inglés,true
+55.555.555-5,Felipe,Rojas,+56955555555,felipe.r@guia.cl,Calle del Bosque,456,Frutillar,Frutillar,Los Lagos,Aventura,7,Español/Inglés/Portugués,true
+66.666.666-6,Gabriela,Morales,+56966666666,gabriela.m@guia.cl,Calle del Lago,789,Puerto Varas,Puerto Varas,Los Lagos,Paseos Lacustres,3,Español/Inglés,true
+77.777.777-7,Tomás,Espinoza,+56977777777,tomas.e@guia.cl,Av. Los Pioneros,321,Llanquihue,Llanquihue,Los Lagos,Cultural,2,Español,false
