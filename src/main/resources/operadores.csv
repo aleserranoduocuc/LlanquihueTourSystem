@@ -1,0 +1,8 @@
+Rut,Nombre,Apellido,Telefono,Email,Calle,Numero,Comuna,Ciudad,Region,Empresa,TipoServicio,CapacidadMaxima,Activo
+47.474.747-4,Roberto,Torres,+56947474747,roberto.t@operador.cl,Camino al Sur,345,Puerto Montt,Puerto Montt,Los Lagos,Lago Tour,Navegación,50,true
+58.585.858-5,Patricia,López,+56958585858,patricia.l@operador.cl,Av. Costanera,678,Puerto Varas,Puerto Varas,Los Lagos,Sur Expediciones,Trekking,20,true
+68.686.868-6,Miguel,Álvarez,+56968686868,miguel.a@operador.cl,Calle Puerto,789,Puerto Varas,Puerto Varas,Los Lagos,Chiloé Bus,Transporte,35,true
+78.787.878-7,Verónica,Castro,+56978787878,veronica.c@operador.cl,Av. del Lago,234,Llanquihue,Llanquihue,Los Lagos,Mar del Sur,Pesca Deportiva,10,false
+88.888.888-8,Ricardo,Núñez,+56988888888,ricardo.n@operador.cl,Calle Costanera,567,Puerto Montt,Puerto Montt,Los Lagos,Southern Tour,Cultural,25,true
+99.999.999-9,Andrea,Fuentes,+56999999999,andrea.f@operador.cl,Av. Los Lagos,890,Puerto Varas,Puerto Varas,Los Lagos,Sur Andino,Gastronomía,15,true
+10.101.010-1,Carlos,Méndez,+56910101010,carlos.m@operador.cl,Calle del Puerto,432,Puerto Montt,Puerto Montt,Los Lagos,Navega Sur,Navegación,40,true

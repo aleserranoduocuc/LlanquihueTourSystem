@@ -1,0 +1,8 @@
+Rut,Nombre,Apellido,Telefono,Email,Calle,Numero,Comuna,Ciudad,Region,Rubro,HorarioAtencion,Calificacion
+61.616.161-6,Marta,Sánchez,+56961616161,marta.s@proveedor.cl,Calle Comercio,123,Puerto Varas,Puerto Varas,Los Lagos,Hostelería,08:00-22:00,5
+72.727.272-7,Jorge,Flores,+56972727272,jorge.f@proveedor.cl,Av. Los Lagos,456,Llanquihue,Llanquihue,Los Lagos,Gastronomía,10:00-21:00,4
+83.838.383-8,Claudia,Herrera,+56983838383,claudia.h@proveedor.cl,Calle del Mar,789,Frutillar,Frutillar,Los Lagos,Artesanía,09:00-19:00,5
+94.949.494-9,Eduardo,Ramos,+56994949494,eduardo.r@proveedor.cl,Calle Puerto,456,Puerto Varas,Puerto Varas,Los Lagos,Transporte,07:00-20:00,4
+15.151.515-5,Sofía,Valenzuela,+56915151515,sofia.v@proveedor.cl,Av. Los Pioneros,789,Llanquihue,Llanquihue,Los Lagos,Guía Turístico,08:00-18:00,3
+26.262.626-6,Pablo,Navarro,+56926262626,pablo.n@proveedor.cl,Calle del Lago,234,Puerto Varas,Puerto Varas,Los Lagos,Alojamiento,24h,5
+37.373.737-7,Rosa,Salazar,+56937373737,rosa.s@proveedor.cl,Av. Costanera,567,Puerto Montt,Puerto Montt,Los Lagos,Restauración,10:00-23:00,4
