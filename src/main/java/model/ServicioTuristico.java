@@ -1,6 +1,6 @@
 package com.mycompany.llanquihuetoursystem.model;
 
-public class ServicioTuristico {
+public abstract class ServicioTuristico {
     protected String nombre;
     protected int duracionHoras;
 
@@ -24,6 +24,8 @@ public class ServicioTuristico {
     public void setDuracionHoras(int duracionHoras) {
         this.duracionHoras = duracionHoras;
     }
+
+    public abstract void mostrarInformacion();
 
     @Override
     public String toString() {

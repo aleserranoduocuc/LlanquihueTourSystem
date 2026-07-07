@@ -18,22 +18,19 @@ public class LlanquihueTourSystem {
         
         CargadorDatos cargador = new CargadorDatos();
         GestionTuristica gestion = new GestionTuristica();
+        GestorServicios gestorServicios = new GestorServicios();
         
-        // Cargar empleados de ejemplo
         cargarEmpleadosEjemplo(gestion);
         
         try {
-            // Cargar guías usando ClassLoader
             List<Guia> guias = cargador.cargarGuias();
             guias.forEach(gestion::agregarGuia);
             System.out.println("✅ " + guias.size() + " guías cargadas");
             
-            // Cargar operadores
             List<Operador> operadores = cargador.cargarOperadores();
             operadores.forEach(gestion::agregarOperador);
             System.out.println("✅ " + operadores.size() + " operadores cargados");
             
-            // Cargar proveedores
             List<Proveedor> proveedores = cargador.cargarProveedores();
             proveedores.forEach(gestion::agregarProveedor);
             System.out.println("✅ " + proveedores.size() + " proveedores cargados");
@@ -45,7 +42,6 @@ public class LlanquihueTourSystem {
         
         System.out.println("\n✅ ¡Sistema listo para usar!\n");
         
-        // Menú interactivo
         Scanner scanner = new Scanner(System.in);
         int opcion;
         
@@ -169,7 +165,7 @@ public class LlanquihueTourSystem {
                     break;
                     
                 case 9:
-                    GestorServicios.mostrarServiciosTuristicos();
+                    gestorServicios.mostrarServicios();
                     break;
                     
                 case 10:
