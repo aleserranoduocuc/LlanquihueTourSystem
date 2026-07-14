@@ -1,11 +1,14 @@
 package com.mycompany.llanquihuetoursystem;
 
 import com.mycompany.llanquihuetoursystem.data.CargadorDatos;
+import com.mycompany.llanquihuetoursystem.data.GestorEntidades;
 import com.mycompany.llanquihuetoursystem.data.GestorServicios;
 import com.mycompany.llanquihuetoursystem.model.*;
 import com.mycompany.llanquihuetoursystem.service.GestionTuristica;
+import com.mycompany.llanquihuetoursystem.ui.VentanaPrincipal;
 import java.util.List;
 import java.util.Scanner;
+import javax.swing.SwingUtilities;
 
 public class LlanquihueTourSystem {
     public static void main(String[] args) {
@@ -19,6 +22,7 @@ public class LlanquihueTourSystem {
         CargadorDatos cargador = new CargadorDatos();
         GestionTuristica gestion = new GestionTuristica();
         GestorServicios gestorServicios = new GestorServicios();
+        GestorEntidades gestorEntidades = new GestorEntidades();
         
         cargarEmpleadosEjemplo(gestion);
         
@@ -46,20 +50,22 @@ public class LlanquihueTourSystem {
         int opcion;
         
         do {
-            System.out.println("╔════════════════════════════════════════╗");
-            System.out.println("║            MENÚ PRINCIPAL             ║");
-            System.out.println("╠════════════════════════════════════════╣");
-            System.out.println("║  1. Mostrar todos los registros       ║");
-            System.out.println("║  2. Buscar guías por especialidad     ║");
-            System.out.println("║  3. Ver guías disponibles             ║");
-            System.out.println("║  4. Buscar operadores por servicio    ║");
-            System.out.println("║  5. Buscar proveedores por rubro      ║");
-            System.out.println("║  6. Buscar proveedores por calif.     ║");
-            System.out.println("║  7. Buscar persona por nombre         ║");
-            System.out.println("║  8. Ver estadísticas                  ║");
-            System.out.println("║  9. Ver servicios turísticos          ║");
-            System.out.println("║  10. Salir                            ║");
-            System.out.println("╚════════════════════════════════════════╝");
+            System.out.println("╔════════════════════════════════════════════╗");
+            System.out.println("║                MENÚ PRINCIPAL             ║");
+            System.out.println("╠════════════════════════════════════════════╣");
+            System.out.println("║  1. Mostrar todos los registros           ║");
+            System.out.println("║  2. Buscar guías por especialidad         ║");
+            System.out.println("║  3. Ver guías disponibles                 ║");
+            System.out.println("║  4. Buscar operadores por servicio        ║");
+            System.out.println("║  5. Buscar proveedores por rubro          ║");
+            System.out.println("║  6. Buscar proveedores por calif.         ║");
+            System.out.println("║  7. Buscar persona por nombre             ║");
+            System.out.println("║  8. Ver estadísticas                      ║");
+            System.out.println("║  9. Ver servicios turísticos              ║");
+            System.out.println("║  10. Mostrar entidades                    ║");
+            System.out.println("║  11. Abrir interfaz gráfica               ║");
+            System.out.println("║  12. Salir                                ║");
+            System.out.println("╚════════════════════════════════════════════╝");
             System.out.print("👉 Seleccione una opción: ");
             
             try {
@@ -169,6 +175,17 @@ public class LlanquihueTourSystem {
                     break;
                     
                 case 10:
+                    gestorEntidades.mostrarEntidades();
+                    break;
+                    
+                case 11:
+                    System.out.println("\n🖥️ Abriendo interfaz gráfica...\n");
+                    SwingUtilities.invokeLater(() -> {
+                        new VentanaPrincipal().setVisible(true);
+                    });
+                    break;
+                    
+                case 12:
                     System.out.println("\n╔══════════════════════════════════════════════╗");
                     System.out.println("║  ¡Gracias por usar Llanquihue Tour!         ║");
                     System.out.println("║  📍 Región de Los Lagos, Chile              ║");
@@ -180,12 +197,12 @@ public class LlanquihueTourSystem {
                     System.out.println("❌ Opción inválida. Intente nuevamente.");
             }
             
-            if (opcion != 10) {
+            if (opcion != 12) {
                 System.out.println("\n⏎ Presione Enter para continuar...");
                 scanner.nextLine();
             }
             
-        } while (opcion != 10);
+        } while (opcion != 12);
         
         scanner.close();
     }
